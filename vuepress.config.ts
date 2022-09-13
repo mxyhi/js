@@ -3,7 +3,7 @@ import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   // publicPath:"/js/",
-  base: "/js/docs/",
+  base: "/",
   lang: "zh-CN",
   dest: "docs",
   public: "public",
