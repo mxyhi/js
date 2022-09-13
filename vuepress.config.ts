@@ -4,6 +4,7 @@ import { searchPlugin } from "@vuepress/plugin-search";
 export default defineUserConfig({
   base: "/js/web/",
   lang: "zh-CN",
+  dest: "docs",
   public: "public",
   title: "深入浅出web",
   description: "学习记录",
