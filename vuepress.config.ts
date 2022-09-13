@@ -2,7 +2,7 @@ import { defaultTheme, defineUserConfig } from "vuepress";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
-  base: "/web/",
+  base: "/js/web/",
   lang: "zh-CN",
   public: "public",
   title: "深入浅出web",
