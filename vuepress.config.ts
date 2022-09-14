@@ -2,8 +2,7 @@ import { defaultTheme, defineUserConfig } from "vuepress";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
-  // publicPath:"/js/",
-  base: "/js/",
+  base: "/web/",
   lang: "zh-CN",
   dest: "docs",
   public: "public",
@@ -28,7 +27,7 @@ export default defineUserConfig({
       // NavbarGroup
       {
         text: "JavaScript",
-        link: "/js/",
+        link: "/javasript/",
         children: [
           {
             text: "Function",
