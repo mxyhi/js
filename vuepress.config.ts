@@ -13,7 +13,7 @@ export default defineUserConfig({
     sidebarDepth: 5,
     home: "/",
     // Public 文件路径
-    logo: "/assets/img/logo.png",
+    // logo: "/assets/img/logo.png",
     navbar: [
       // NavbarItem
       {
