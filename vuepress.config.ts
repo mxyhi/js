@@ -27,15 +27,14 @@ export default defineUserConfig({
       // NavbarGroup
       {
         text: "JavaScript",
-        link: "/javascript/",
         children: [
           {
             text: "Function",
-            link: "/javascript/function/",
+            link: "/js/function/",
           },
           {
             text: "Array",
-            link: "/javascript/array/",
+            link: "/js/array/",
           },
         ],
       },
