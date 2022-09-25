@@ -36,10 +36,13 @@ export default defineUserConfig({
             text: "Array",
             link: "/js/array/",
           },
+          {
+            text: "异步编程",
+            link: "/js/promise/",
+          },
         ],
       },
     ],
   }),
   plugins: [searchPlugin({})],
-
 });
